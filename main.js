@@ -1,0 +1,1 @@
+const socket = (typeof io === 'function') ? io() : null; if(socket){socket.on('queue_update',()=>{const badge=document.getElementById('live-status');if(badge)badge.textContent='Queue updated just now';});}

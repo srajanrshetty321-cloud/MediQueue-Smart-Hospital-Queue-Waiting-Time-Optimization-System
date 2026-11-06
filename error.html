@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<div class="auth-wrap"><div class="auth-card text-center"><div class="token-number">{{ code }}</div><h2>Something went wrong</h2><p class="muted">{{ message }}</p><a class="btn btn-primary" href="{{ url_for('home') }}">Return to dashboard</a></div></div>{% endblock %}
